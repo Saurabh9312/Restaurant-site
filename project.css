@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(184, 178, 178);
+}
+
+.head {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    background-color: rgb(184, 178, 178);
+    color: black;
+
+}
+
+.title {
+    height: 50px;
+    width: 80%;
+    /* background-color: aqua; */
+    margin-left: 10%;
+    font-size: 0;
+
+}
+
+.logo {
+    height: 50px;
+    width: 15%;
+    /* background-color: yellow; */
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    height: 50px;
+    width: 45%;
+    /* background-color: green; */
+    display: inline-block;
+    margin-left: 40%;
+}
+
+.nav-child {
+    width: 100%;
+    height: 50px;
+    font-size: 0px;
+}
+
+.nav-list {
+    width: 25%;
+    font-size: 18px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.poster {
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.poster-img {
+    height: 500px;
+    width: 100%;
+}
+
+.dishes {
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.dish-container {
+    height: 420px;
+    width: 80%;
+    /* background-color: green; */
+    margin-left: 10%;
+    font-size: 0px;
+
+}
+
+.dish {
+    height: 400px;
+    width: 20%;
+    /* background-color: brown; */
+    display: inline-block;
+    margin-left: 4%;
+    vertical-align: top;
+}
+
+.dis-img {
+    height: 200px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.dish-info {
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+}
+
+.dish-image {
+    height: 200px;
+    width: 100%;
+}
+
+.dish-name {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.dish-para {
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.dish-btn {
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(145, 32, 32);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hotel-info {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.info-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.info-img {
+    height: 400px;
+    width: 50%;
+    /* background-color: yellow; */
+    display: inline-block;
+}
+
+.info-text {
+    height: 400px;
+    width: 50%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.info-image {
+    height: 400px;
+    width: 100%;
+}
+
+.info-para {
+    padding: 10px 20px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.info-span {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.gallery {
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+    font-size: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.gallery-container1 {
+    height: 250px;
+    width: 25%;
+    /* background-color: green; */
+    display: inline-block;
+}
+
+.gallery-img {
+    height: 250px;
+    width: 100%;
+}
+
+.form {
+    height: 400px;
+    width: 100%;
+    /* background-color: white; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-container {
+    height: 360px;
+    width: 40%;
+    margin-left: 28%;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    border-style: double;
+
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    /* background-color: whites; */
+}
+
+.form-input {
+    width: 93%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.form-s-input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(145, 32, 32);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(39, 78, 78);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    width: 80%;
+    height: 300px;
+    /* background-color: green; */
+    margin-left: 10%;
+    font-size: 0px;
+    background-color: rgb(39, 78, 78);
+}
+
+.footer-item {
+    width: 30%;
+    height: 300px;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 2.5%;
+    vertical-align: top;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(39, 78, 78);
+
+}
+
+.footer-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(39, 78, 78);
+}
+
+.footer-para {
+    font-size: 16px;
+    background-color: rgb(39, 78, 78);
+}
+
+.address-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    background-color: rgb(39, 78, 78);
+}
+
+.address-para {
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: rgb(39, 78, 78);
+}
+
+.google-map {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(39, 78, 78);
+}
