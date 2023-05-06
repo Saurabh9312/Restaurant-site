@@ -248,14 +248,7 @@
     font-size: 16px;
     background-color: white;
     margin-bottom: 10px;
-}
-
-.form-s-input {
-    width: 100%;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: white;
-    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .form-btn {
